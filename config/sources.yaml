@@ -1,0 +1,20 @@
+sources:
+  - name: crm_export
+    type: crm
+    enabled: true
+    path: ./data/crm.csv
+
+  - name: sql_sales
+    type: sql
+    enabled: false
+    connection_string: "postgresql://user:password@host:5432/app"
+
+  - name: customer_contacts
+    type: csv
+    enabled: true
+    path: ./data/customers.csv
+
+  - name: support_email_dump
+    type: email
+    enabled: false
+    path: ./data/emails.jsonl

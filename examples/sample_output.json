@@ -1,0 +1,19 @@
+{
+  "source_name": "demo_source",
+  "source_type": "csv",
+  "record_count": 2,
+  "records": [
+    {
+      "source_name": "demo_source",
+      "source_type": "csv",
+      "record": {
+        "id": "A-001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      "metadata": {
+        "normalized": true
+      }
+    }
+  ]
+}
